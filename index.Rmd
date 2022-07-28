@@ -16,16 +16,22 @@ output:
 With a core foundation knowledge in earth science and specialized in Geospatial Analysis, he is able to integrate available technologies of UAVs, satellite imagery, programming languages and GI systems into any field that requires location- based analytics. He enjoys working in a team and can also work independently with minimal supervision. He’s also a keen learner and is always in pursuit of knowledge and skills with attention to detail. Knowledge of Python and R programming complements spatial data analysis skills in geospatial data wrangling. In addition to that, he has developed his skills in applying machine learning techniques that involves supervised classifications, webgis development, statistical analysis, airborne LiDAR metrics and is continuously keeping abreast on computer vision methods and its application in GIS. He is passionate about everything spatial!
 
 ## Project Portfolio
-1. [Airport Inspector WebGIS App:](https://github.com/charlieikosi/Airport-Inspector)
+
+###### *Note: Text in blue represents links to detailed project description hosted on github. These can be clicked on to be directed there.*
+
+1. [Airport Inspector WebGIS App](https://github.com/charlieikosi/Airport-Inspector)
+
 A Web GIS Application for decision support in airstrip allocation and serviceability impact on rural areas in Papua New Guinea.
 
-2. [Lidar 3D Visualisation:](https://github.com/charlieikosi/LiDAR_3d_vis_with_r)
+2. [Lidar 3D Visualisation](https://github.com/charlieikosi/LiDAR_3d_vis_with_r)
+
 This repository presents source code for extracting LiDAR point clouds using building footprints and then creating 3D meshes.The report which contains interactive graphics can be downloaded [here.](https://github.com/charlieikosi/LiDAR_3d_vis_with_r/blob/main/internship.zip)
 
-3. **Space Syntax Theory:** 
+3. **Space Syntax Theory** 
+
 Space syntax is a set of theories and statistical methods that are used to model and analyse movement within cities. This small project applies that theory to model and analyse the street network of Port Moresby in Papua New Guinea* within a 10km radius from the CBD. The analysis was able to predict road segments that would have high volume of traffic indicted by the warm/ or hot colors in the map. Interestingly, this closely mirrors the busy routes experienced in the city. Areas of cooler colors show road networks that are segregated, hence less volume of traffic.
 
-![](C:/Users/Dept Of Prov Affairs/Documents/website/Bio/pom.jpg){width=70%}
+![*Subset of Port Moresby City in Papua New Guinea showing global connectivity of street network.*](C:/Users/Dept Of Prov Affairs/Documents/website/Bio/pom.jpg){width=70%}
 
 4. **Vertical Displacement analysis using Interferometry**
 
@@ -35,13 +41,13 @@ Application of this technology in PNG for landslide mapping using this technique
 
 The image below is an output of my laboratory work while studying at the University of Canterbury in which vertical surface displacements using interferometry for the earthquake displacement at Kaikoura in New Zealand was measured. Each fringe (arbitrary color) represents a vertical displacement in centimeters, so by counting each one will yield the total vertical displacement.
 
-![](C:/Users/Dept Of Prov Affairs/Documents/website/Bio/Interferogram.jpg){width=70%}
+![*Interferogram output from the Kaikoura earthquake.*](C:/Users/Dept Of Prov Affairs/Documents/website/Bio/Interferogram.jpg){width=70%}
 
 5. **Quantification and Benthic Zonation of Coral Reefs**
 
 Corals are highly susceptible to changes in oceanic conditions and there has been a noticeable trend of decreasing coral reef extent throughout regions in the tropics. I was interested in using satellite imagery from Sentinel 2B Level 2A product with bottom of atmosphere (BOA) correction to map out the benthic zonation of corals near Fisherman Island. Using high spatial resolution bands (band 2 (blue), 3 (green),4 (red) and 8 (NIR)) were used to create benthic classes under the IsoData unsupervised classification method due to the heterogenous nature of corals. Class validation was done via spectral responses and also from ancillary and bibliography data, however do note that this classification was not validated from in situ data but demonstrating the potential for further application of sentinel 2 imagery for coral reef mapping in Papua New Guinea.
 
-![](C:/Users/Dept Of Prov Affairs/Documents/website/Bio/reef.jpg){width=80%}
+![*Classified output of benthic reefs assemblages on Fisherman Island.*](C:/Users/Dept Of Prov Affairs/Documents/website/Bio/reef.jpg){width=80%}
 
 6. **PREDICTING CARBON STOCKING USING LIDAR POINT CLOUDS AND FIELD PLOT MEASUREMENTS**
 
@@ -50,11 +56,39 @@ stem growth and mass gains thus are a major source of terrestrial carbon. Forest
 atmospheric composition, sediment transport, albedo, global temperatures and wildlife habitat for 80% of the world’s terrestrial biodiversity, however, with average global CO2 concentrations reaching 412.5ppm due to increases in carbon dioxide emissions from fossil fuels and other large-scale industrial emissions, managing and accounting for carbon stocks in forests is paramount. New
 Zealand’s Emissions Trading Scheme (NZ ETS) is a tool that promotes a change in behaviour of producers to limit their emissions. Built using years of growth modelling techniques for tree stem growth, volume, height and wood density, it provides a simple default look-up table for accounting carbon stocks in a forested area. This study endeavours to identify the spatial variations in above ground biomass within forest plantations using airborne LiDAR derived point clouds and to compare that with the NZ ETS look-up tables. The area of study was the Bottle Lake Forest using LiDAR point clouds obtained from the 2018-2019 Ashley River and Christchurch survey and relationships made between AGB from plot data with LiDAR metrics. Whilst not violating the regression assumptions in the predictors, AGB estimation from the predictive performance of the model yielded an R2 value of 0.83 given that there were few forest sampling plots in total to cover the Bottle Lake Forest. Its critical p-value from the F-Statistic test assessed the predictors in the model and found that the predictors did contribute significantly to the model performance under a significance level of 0.05 and therefore supporting the alternate hypothesis that carbon stockings from LiDAR derived AGB estimates were more accurate than using the NZ ETS look-up tables.
 
-![](C:/Users/Dept Of Prov Affairs/Documents/website/Bio/bottle_lake.jpg){width=70%}
+![*Predicted carbon stocking of Bottle Lake Forest.*](C:/Users/Dept Of Prov Affairs/Documents/website/Bio/bottle_lake.jpg){width=70%}
+
+7. **DETERMINING OPTIMUM ROOFTOP SOLAR POWER OUTPUT USING UAV PHOTOGRAMMETRY**
+
+![*Pavilion Building at Ilam Fields.*](C:/Users/Dept Of Prov Affairs/Documents/website/Bio/pavilion.jpg){width=70%}
+
+This project aim was to use SfM to determine optimum solar power output for the Pavilion building situated on Ilam fields at the University of Canterbury in Christchurch New Zealand. A total of 9 control points were utilized around the building in which each were geolocated using a Trimble R8 GNSS survey grade receiver. Using a DJI Matrice 200 drone, the SfM mission was flown with image overlap set at 70% for both frontal and side overlap. Imagery acquired from the SfM mission was preprocessed in agisoft to output the orthomosaic, DSM and DTM derivatives.
+
+![*DSM outputs from SfM.*](C:/Users/Dept Of Prov Affairs/Documents/website/Bio/dsm.jpg){width=70%}
+
+Determination of Solar potential was performed using ArcGIS model builder which is a visual programming language for building workflows through combining several tools such as slope, aspect, zonal statistics, joins etc. We utilized building footprints and the DSM as model inputs to provide the basis for automation required in scaling up analysis for the project to cover other buildings. We were able to determine the ideal locations of the Pavilion rooftop for installing solar panels that yielded the most solar potential indicated as red grid cells.
+
+![*Model builder architecture.*](C:/Users/Dept Of Prov Affairs/Documents/website/Bio/model_builder.jpg){width=70%}
+
+![*Ideal rooftop solar potential of the Pavilion building.*](C:/Users/Dept Of Prov Affairs/Documents/website/Bio/solar_potential.jpg){width=70%}
+
+8. [AIRSTRIP SURVEY PROGRAM](https://github.com/charlieikosi/Airstrip-Survey-Program)
+
+Built using the Tkinter python package for GUI development, the Airstrip Survey program is a user-friendly GUI interface that shows 8 variables which guides the user to input airstrip survey data. It was developed to target technical personnel in the aviation industry in Papua New Guinea. 
+
+Airstrip surveyors in the past have been using sheets of printed paper to collect airstrip information and on these survey trips, they are exposed to the natural elements of nature. Sheets of paper would either get smudged, disintegrate under wet weather conditions or get blown away by wind if not bounded well. There was also, the tendency to accrue a clutter of survey papers when multiple airstrips where surveyed, which usually was the case. The old process for these airstrip surveyors was that after each survey trip, these survey sheets would then be transferred manually into excel or csv to build a database of the airstrips in the country and to use that to plot on map.
+
+The benefits of the Airstrip Survey program will improve the performance of surveyors in the field and in the office by eliminating the manual entry and protect the data against the natural elements. It makes it possible to digitize on the go and automated the whole process efficiently. 
+ 
+![*Python GUI Program.*](C:/Users/Dept Of Prov Affairs/Documents/website/Bio/gui.jpg){width=70%}
+
+The flow diagram below shows how the GUI functions:
+
+![*Flow diagram of GUI functionality.*](C:/Users/Dept Of Prov Affairs/Documents/website/Bio/gui2.jpg){width=70%}
 
 ## Extra Curricular Activites
 ##### UCMe Star
-![](https://stra01s9.blob.core.windows.net/cache/c/a/b/c/d/5/cabcd5402d4ffe7151d387372113edc1f261e469.jpg){width=70%}
+![*Bus stop image ad shell.*](https://stra01s9.blob.core.windows.net/cache/c/a/b/c/d/5/cabcd5402d4ffe7151d387372113edc1f261e469.jpg){width=70%}
 
 During his studies at the university of Canterbury in 2021, Charlie took part in the University marketing campaign known as UCMe. The campaign aims to showcase the diverse student attending the University and the study programs they are involved in. Charlie was one of few students who had been selected to be part of it which included photo shoots and video interviews.
 
@@ -67,7 +101,7 @@ embed_youtube("slkkMIVql8U")
 
 Besides professional traits, Charlie is very much an outgoing person that enjoys travel and exploring new places. He has a video blog page which he calls Niugini Travelor and posts stories and videos of the places he's been to. These can be short snippets, compilations or commentary style clips.
 
-![](C:/Users/Dept Of Prov Affairs/Documents/website/Bio/niuginitravelor.jpg){width=80%}
+![*Travel blog page on Facebook.*](C:/Users/Dept Of Prov Affairs/Documents/website/Bio/niuginitravelor.jpg){width=80%}
 
 This interest in capturing his adventures arose from his time studying in New Zealand and the ambition was to share a story that would one day inspire others to travel and tell their stories as well.
 
