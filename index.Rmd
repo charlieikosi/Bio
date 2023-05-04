@@ -8,6 +8,8 @@ links:
     url: "https://github.com/charlieikosi"
   - label: Email
     url: "mailto:charlieikosi@gmail.com"
+  - label: Substack Blog
+    url: "https://charliearuaikosi.substack.com/"
 output:
   postcards::trestles
 ---
