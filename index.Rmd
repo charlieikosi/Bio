@@ -15,7 +15,8 @@ output:
 ---
  
 ## Bio
-With a core foundation knowledge in earth science and specialized in Geospatial Analysis, he is able to integrate available technologies of UAVs, satellite imagery, programming languages and GI systems into any field that requires location- based analytics. He enjoys working in a team and can also work independently with minimal supervision. He’s also a keen learner and is always in pursuit of knowledge and skills with attention to detail. Knowledge of Python and R programming complements spatial data analysis skills in geospatial data wrangling. In addition to that, he has developed his skills in applying machine learning techniques that involves supervised classifications, webgis development, statistical analysis, airborne LiDAR metrics and is continuously keeping abreast on computer vision methods and its application in GIS. He is passionate about everything spatial!
+With a core foundation knowledge in earth science and specialized in Geospatial Analysis, he is able to integrate available technologies of UAVs, satellite imagery, programming languages and GI systems into any field that requires location- based analytics. He enjoys working in a team and can also work independently with minimal supervision. He’s also a keen learner and is always in pursuit of knowledge and skills with attention to detail. Knowledge of Python and R programming complements spatial data analysis skills in geospatial data wrangling. In addition to that, he has developed his skills in applying machine learning techniques that involves supervised classifications, webgis development, statistical analysis, airborne LiDAR metrics and is continuously keeping abreast on computer vision methods and its application in GIS. He also has demonstrated knowledge in 3D visualization using R programing and Blender3D software. Charlie
+is passionate about everything spatial!
 
 ## Project Portfolio
 
