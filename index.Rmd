@@ -91,7 +91,6 @@ The flow diagram below shows how the GUI functions:
 
 ## Extra Curricular Activites
 ##### UCMe Star
-![*Bus stop image ad shell.*](https://stra01s9.blob.core.windows.net/cache/c/a/b/c/d/5/cabcd5402d4ffe7151d387372113edc1f261e469.jpg){width=70%}
 
 During his studies at the university of Canterbury in 2021, Charlie took part in the University marketing campaign known as UCMe. The campaign aims to showcase the diverse student attending the University and the study programs they are involved in. Charlie was one of few students who had been selected to be part of it which included photo shoots and video interviews.
 
