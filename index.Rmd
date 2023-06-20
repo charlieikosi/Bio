@@ -1,6 +1,6 @@
 ---
 title: "Charlie Arua Ikosi"
-image: "https://raw.github.com/charlieikosi/Bio/tree/main/images/charlie.jpg"
+image: "charlie.jpg"
 links:
   - label: LinkedIn
     url: "https://www.linkedin.com/in/charlie-ikosi-8184015a/"
